@@ -1,0 +1,119 @@
+
+:root {
+    --primary-color: #AE1100;
+    --bg-color: #EBECF0;
+    --text-color: #61677C;
+    --input-bg-color: #fff;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --border-color: #BABECC;
+    --highlight-color: #AE1100;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    height: 100vh;
+}
+
+center {
+    padding: 20px;
+}
+
+h1 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: var(--input-bg-color);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px var(--shadow-color);
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="file"],
+input[type="date"],
+input[type="range"],
+input[type="tel"],
+input[type="search"],
+input[type="url"],
+input[type="color"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 3px var(--shadow-color);
+    transition: all 0.2s ease-in-out;
+}
+
+input[type="radio"] {
+    
+    align-content:first baseline;
+    flex-direction: row;
+    display: flex;
+ 
+}
+
+
+
+
+
+input:focus, textarea:focus, select:focus {
+    border-color: var(--highlight-color);
+    outline: none;
+    box-shadow: 0 0 5px var(--highlight-color);
+}
+
+input[type="submit"] {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: darken(var(--primary-color), 10%);
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
