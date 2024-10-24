@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.block1{
+background-color: red;
+float: left;
+height: 200px;
+width: 200px;
+margin: 10px;
+}
+.block2{
+background-color: blue;
+margin-left: 20px;
+height: 200px;
+width: 150px;
+float: right;
+}
+.block3{
+background-color: green;
+margin-left: 20px;
+height: 100px;
+width: 150px;
+clear: both;
+}
