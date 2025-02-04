@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.facture-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.facture-header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.facture-header h1, .facture-header p {
+    color: #fff;
+    margin: 0;
+}
+
+.facture-title h2 {
+    font-size: 36px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.facture-infos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.facture-infos div {
+    width: 48%;
+    text-align: left;
+}
+
+.facture-infos h3 {
+    font-size: 20px;
+    color: #00aaff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.facture-table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.facture-table th, .facture-table td {
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.facture-table th {
+    background-color: #333;
+}
+
+.facture-table input {
+    width: 100%;
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid #00aaff;
+    color: #fff;
+    font-size: 14px;
+}
+
+.facture-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.facture-buttons button {
+    padding: 10px 20px;
+    background-color: #00aaff;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.facture-buttons button:hover {
+    background-color: #ffaa00;
+}
+
+.facture-total {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.facture-total p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.facture-total h3 {
+    font-size: 24px;
+    color: #ffaa00;
+    margin-top: 20px;
+}
+
+/* Style for links inside the page */
+a {
+    text-decoration: none;
+    color: #00aaff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ffaa00;
+    text-shadow: 0 0 10px #ffaa00;
+}
